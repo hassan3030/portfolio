@@ -20,6 +20,10 @@ const Header = () => {
             <li className='text-xl inline'>
                 <Link className='text-xl hover:text-[#AEAFB3] p-2 transition duration-700 ease-in-out' href={'#contact'}>Contact</Link>
             </li>
+            
+            <li className='text-xl inline'>
+                <Link className='text-xl hover:text-[#AEAFB3] p-2 transition duration-700 ease-in-out' href="sites">Sites</Link>
+            </li>
         </ul>
     </div>
   )

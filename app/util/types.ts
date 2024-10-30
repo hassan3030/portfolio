@@ -10,3 +10,9 @@ export interface projects {
        photo?:string | any
   }
    
+  export interface sites {
+       title?:string 
+       icon?:string | any
+       desc?:string 
+  }
+   

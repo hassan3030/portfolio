@@ -11,6 +11,10 @@ import photo8 from '../assets/projects/Capture8.png';
 
 import { projects } from "./types"
 import { photos } from "./types"
+import { sites } from "./types"
+
+// all icons 
+
 
 export const dataProjects:projects[] =[
     {
@@ -92,5 +96,28 @@ export const photoProjects:photos[] =[
 },
 {
  photo:photo8,    
+}
+]
+
+
+
+export const MainSites:sites[] =[
+{
+  title:'E_Commerce',
+  icon: '<IoAccessibilityOutline/>',
+  desc:'cygishdvijvtropodb vkflkhvun ikfdcv'
+
+},
+{
+  title:'E_Commerce',
+  icon: '<IoAccessibilityOutline/>',
+  desc:'cygishdvijvtropodb vkflkhvun ikfdcv'
+
+},
+{
+  title:'E_Commerce',
+  icon: '<IoAccessibilityOutline/>',
+  desc:'cygishdvijvtropodb vkflkhvun ikfdcv'
+
 }
 ]
