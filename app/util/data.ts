@@ -1,12 +1,12 @@
 // import projects from './types.'
-import photo1 from '../assets/projects/c1.png';
-import photo2 from '../assets/projects/c2.png';
-import photo3 from '../assets/projects/Capture3.png';
-import photo4 from '../assets/projects/Capture4.png';
-import photo5 from '../assets/projects/Capture5.png';
-import photo6 from '../assets/projects/Capture6.png';
-import photo7 from '../assets/projects/c7.png';
-import photo8 from '../assets/projects/Capture8.png';
+// import photo1 from '../assets/projects/c1.png';
+// import photo2 from '../assets/projects/c2.png';
+// import photo3 from '../assets/projects/Capture3.png';
+// import photo4 from '../assets/projects/Capture4.png';
+// import photo5 from '../assets/projects/Capture5.png';
+// import photo6 from '../assets/projects/Capture6.png';
+// import photo7 from '../assets/projects/c7.png';
+// import photo8 from '../assets/projects/Capture8.png';
 
 
 import { projects } from "./types"
@@ -70,34 +70,34 @@ export const dataProjects:projects[] =[
 
   ]
 
-export const photoProjects:photos[] =[
-    {
+// export const photoProjects:photos[] =[
+//     {
        
-    photo:photo1,    
-},
-{
+//     photo:photo1,    
+// },
+// {
     
- photo:photo2,    
-},
-{
- photo:photo3,    
-},
-{
- photo:photo4,    
-},
-{
- photo:photo5,    
-},
-{
- photo:photo6,    
-},
-{
- photo:photo7,    
-},
-{
- photo:photo8,    
-}
-]
+//  photo:photo2,    
+// },
+// {
+//  photo:photo3,    
+// },
+// {
+//  photo:photo4,    
+// },
+// {
+//  photo:photo5,    
+// },
+// {
+//  photo:photo6,    
+// },
+// {
+//  photo:photo7,    
+// },
+// {
+//  photo:photo8,    
+// }
+// ]
 
 
 
