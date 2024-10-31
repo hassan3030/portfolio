@@ -6,13 +6,13 @@ import { projects } from "../util/types"
 import { photos } from "../util/types"
 
 // photoes
-// import photo1 from '../assets/projects/c1.png';
-// import photo2 from '../assets/projects/Capture3.png';
-// import photo3 from '../assets/projects/Capture4.png';
-// import photo4 from '../assets/projects/Capture5.png';
-// import photo5 from '../assets/projects/Capture6.png';
-// import photo6 from '../assets/projects/c7.png';
-// import photo7 from '../assets/projects/Capture8.png';
+import photo1 from '../assets/projects/c1.png';
+import photo2 from '../assets/projects/Capture3.png';
+import photo3 from '../assets/projects/Capture4.png';
+import photo4 from '../assets/projects/Capture5.png';
+import photo5 from '../assets/projects/Capture6.png';
+import photo6 from '../assets/projects/c7.png';
+import photo7 from '../assets/projects/Capture8.png';
 
 const Projects = () => {
   const dataProjects:projects[] =[
@@ -62,32 +62,32 @@ const Projects = () => {
     },
 
   ]
-//   const photoProjects:photos[] =[
-//     {
+  const photoProjects:photos[] =[
+    {
        
-//     photo:photo1,    
-// },
-// {
-//  photo:photo2,    
-// },
-// {
-//  photo:photo3,    
-// },
-// {
-//  photo:photo4,    
-// },
-// {
-//  photo:photo5,    
-// },
-// {
-//  photo:photo6,    
-// },
-// {
-//  photo:photo7,    
-// }
-// ]
+    photo:photo1,    
+},
+{
+ photo:photo2,    
+},
+{
+ photo:photo3,    
+},
+{
+ photo:photo4,    
+},
+{
+ photo:photo5,    
+},
+{
+ photo:photo6,    
+},
+{
+ photo:photo7,    
+}
+]
   const [project , setProject] =  useState(dataProjects)
-  // const [photoes , setPhotoes] =  useState(photoProjects)
+  const [photoes , setPhotoes] =  useState(photoProjects)
   return (
     <>
     <h2 className='text-white  text-3xl text-center m-auto mt-36'> A small selection of <span className=' text-purple-500'>recent projects</span> </h2>
@@ -112,8 +112,7 @@ const Projects = () => {
                 <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
                 <Image 
             className='h-full w-full rounded '
-            // src={photoes[i].photo}
-            src="../assets/projects/Capture8.png"
+            src={photoes[i].photo}
             width={300}
             height={400}
             alt="Picture of the project"
